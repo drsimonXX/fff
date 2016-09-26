@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Female Football Fanatic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Just+Another+Hand" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section="top">
+	<div id="header">
+		<img src="images/conferences.jpg" alt="football and basketball logos" id="conference-img">
+	</div>
+</section>
+
+<section id="navbar">
+	<div id="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="archives.html">Archives</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</section>
+
+<section id="title">
+	<div id="main-img">
+		<img src="images/fff1.jpg" alt="The Female Football Fanatic" id="title-img">
+	</div>
+</section>
+
+<div id="container">
+	<section id="most-recent">
+		<div id="intro">
+			<p id="firstPodcast">
+				<!--Sept. 19, 2016<br>
+				Clemson head coach Dabo Swinney recently added his name to the long list of people who have criticized athletes who are protesting the national anthem. Find out why he--and other coaches and players--would be better off keeping their mouths shut. -->
+			</p> 
+		</div>
+		<div id="player-container">
+			<div class="player">
+				<div id="podcastTitle" class="podcast-title">Podcast Title</div>
+			</div>
+				<input id="podcastSlider" class="podcastSlider" type="range" min="0" step="1" onchange="seekPodcast()" />
+
+			<div id="currentTime" class="current-time"></div>
+			<div id="duration" class="duration"></div>
+
+			<div class="controllers">
+				<img src="images/previous.jpg" class="media-btn" width="30px" onclick="previous();" />
+				<img src="images/play.jpg" class="play-btn" width="30px" onclick="playPause(this);" />
+				<img src="images/next.jpg" class="media-btn" id="next-btn" width="30px" onclick="next();" /><br>
+				<span class="vol-icon">&#128266;</span>
+				<input id="volumeSlider" class="volume-slider" type="range" min="0" max="1" step="0.01" onchange="adjustVolume()" />
+				<br><br>
+				<div id="nextPodcastTitle" class="podcast-title">Next Podcast: </div>
+			</div>
+		</div>
+	</section>
+	<!--
+	Internet Explorer instructions: Internet Options->Advanced->Multimedia->Play animations, play sounds in webpages->refresh
+	-->
+</div>
+<footer id="footer">
+	<p>&copy Danielle R. Simon 2016</p>
+	<p>All image copyright and trademark credit for the SEC, Big 12, Big Ten, Pac-12, ACC, NFL and NBA are given to those respective conferences and organizations.</p>
+</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/player.js"></script>
+</body>
+</html>
