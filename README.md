@@ -14,7 +14,7 @@ In the audio player under the name and number of the current podcast, there is a
 After about two weeks, each podcast will be moved to the 'Archives' section of the site and will still be stream-able in the archives.
 
 ##Known Issues
-**Internet Explorer**--In IE, you might have to make changes to your browser's settings in order for the podcasts to play and for the sliders to work properly. Here are directions for how fix these issues if you encounter them:
+**Internet Explorer**--In IE, you might have to make changes to your browser's settings in order for the podcasts to play and for the sliders to work properly. Here are directions for how to fix these issues if you encounter them:
 
 - Look for "tools" from the menu or the tools icon. Go [here] (https://www.google.com/search?q=internet+explorer+tools+icon&biw=1536&bih=781&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwiOjrLy7q7PAhUCOiYKHc0ZBHUQ_AUIBigB) if you're unsure of what the tools icon looks like. 
 - Scroll down to and accept "Internet Options."
