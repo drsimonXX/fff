@@ -2,7 +2,7 @@
 The Female Football Fanatic is a sports podcast site that focuses on college football with a side of the NFL, college basketball and the NBA from a female fan's perspective. There will be at least two new podcasts weekly--one breaking down Michigan football's previous game while previewing Michigan's next game, and another one discussing some of the previous weekend's biggest games and happenings in college football. There will also usually be at least one NFL-related podcast each week. This is a beta version of the site, built using JavaScript, jQuery and AJAX. 
 
 ##How To Launch the Project
-To run the project, visit [this] (https://drsimonxx.github.io/fff/) link in your browser. The browser works best with Chrome or Firefox, but it should be viewable and have full functionality in any other browser, including on mobile devices. 
+To run the project, visit [this] (https://drsimonxx.github.io/fff/) link in your browser. The project works best with Chrome or Firefox, but it should be viewable and have full functionality in any other browser, including on mobile devices. 
 
 ##How To Use the Site
 The site has navigation buttons within a light-blue audio player under the podcast descriptions--a previous button, play button and next button. Click the 'play' button to hear a podcast. Select the 'next' button to go to the next podcast. Underneath the buttons and the volume slider, there is a section displaying the title/topic of the next podcast that you will hear if you click the 'next' button. Click the 'previous' button (far left) to go back to a previous podcast. 
