@@ -17,10 +17,11 @@ After about two weeks, each podcast will be moved to the 'Archives' section of t
 **Internet Explorer**--In IE, you might have to make changes to your browser's settings in order for the podcasts to play and for the sliders to work properly. Here are directions for how to fix these issues if you encounter them:
 
 - Look for "tools" from the menu or the tools icon. Go [here] (https://www.google.com/search?q=internet+explorer+tools+icon&biw=1536&bih=781&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwiOjrLy7q7PAhUCOiYKHc0ZBHUQ_AUIBigB) if you're unsure of what the tools icon looks like. 
-- Scroll down to and accept "Internet Options."
+- Scroll down to and click "Internet Options."
 - Click on the "Advanced" tab in the pop-out window.
 - Scroll down a bit more than halfway until you get to "Multimedia."
 - Check-mark the options regarding playing animations and playing sounds in webpages. You might also need to select "Show pictures," also, if it's not already selected.
+- Click 'OK.'
 - Refresh the page if necessary, and you should be set!
 
 
