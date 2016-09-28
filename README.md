@@ -24,6 +24,8 @@ After about two weeks, each podcast will be moved to the 'Archives' section of t
 - Click 'OK.'
 - Refresh the page if necessary, and you should be set!
 
+**Sept. 27: Volume slider does not work on mobile devices. Working on a fix.**
+
 
 
 
