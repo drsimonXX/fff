@@ -1,4 +1,5 @@
-var podcasts = ["nfl-ratings-are-down.mp3",
+var podcasts = ["stanford-washington.mp3",
+				"nfl-ratings-are-down.mp3",
 				"cfb-week-4.mp3",
 				"michigan-week-4.mp3",
 				"colin-kaepernick.mp3",
@@ -13,13 +14,14 @@ var duration = document.getElementById('duration');
 var volumeSlider = document.getElementById('volumeSlider');
 var nextPodcastTitle = document.getElementById('nextPodcastTitle');
 
-var podcastFour = "Sept. 19, 2016<br>Clemson head coach Dabo Swinney recently added his name to the long list of people who have criticized athletes who are protesting the national anthem. Find out why he--and other coaches and players--would be better off keeping their mouths shut."; 
-var podcastFive = "Sept. 19, 2016<br>Out of all the college football coaches who entered the season on the hot seat, which one will definitely be out at the end of the season?";
-var podcastSix = "Sept. 19, 2016<br>Two huge upsets happened in week 3 in college football with Florida State getting smoked by Louisville and Iowa getting shocked at home by FCS powerhouse North Dakota State. Which upset was the biggest?";
-var podcastSeven = "Sept. 19, 2016<br>Week 3 Michigan football breakdown--reviewing the shocking first half against Colorado and discussing what this could mean for the rest of Michigan's season, as well as Michigan's Big Ten title and playoff hopes.";
-var podcastTwo = "Sept. 27, 2016<br>It's starting early this season--Les Miles is out at LSU, and Brian Kelly's seat is warming up at Notre Dame. Plus, I'm calling out ESPN and College GameDay, Southern bias and B1G-time disrespect.";
-var podcastThree = "Sept. 26, 2016<br>Week 4 saw Michigan take care of business against Penn State while Wisconsin shocked Michigan State. Can Wisconsin pull off another upset in the Big House this Saturday?";
-var podcastOne = "Sept. 27, 2016<br>NFL ratings are down while college football ratings are up, but why? I say it's not player protests, Hillary Clinton or Donald Trump. Hear why I place the blame on Tom Brady, Peyton Manning and the media!";
+var podcastFive = "Sept. 19, 2016<br>Clemson head coach Dabo Swinney recently added his name to the long list of people who have criticized athletes who are protesting the national anthem. Find out why he--and other coaches and players--would be better off keeping their mouths shut."; 
+var podcastSix = "Sept. 19, 2016<br>Out of all the college football coaches who entered the season on the hot seat, which one will definitely be out at the end of the season?";
+var podcastSeven = "Sept. 19, 2016<br>Two huge upsets happened in week 3 in college football with Florida State getting smoked by Louisville and Iowa getting shocked at home by FCS powerhouse North Dakota State. Which upset was the biggest?";
+var podcastEight = "Sept. 19, 2016<br>Week 3 Michigan football breakdown--reviewing the shocking first half against Colorado and discussing what this could mean for the rest of Michigan's season, as well as Michigan's Big Ten title and playoff hopes.";
+var podcastThree = "Sept. 27, 2016<br>It's starting early this season--Les Miles is out at LSU, and Brian Kelly's seat is warming up at Notre Dame. Plus, I'm calling out ESPN and College GameDay, Southern bias and B1G-time disrespect.";
+var podcastFour = "Sept. 26, 2016<br>Week 4 saw Michigan take care of business against Penn State while Wisconsin shocked Michigan State. Can Wisconsin pull off another upset in the Big House this Saturday?";
+var podcastTwo = "Sept. 27, 2016<br>NFL ratings are down while college football ratings are up, but why? I say it's not player protests, Hillary Clinton or Donald Trump. Hear why I place the blame on Tom Brady, Peyton Manning and the media!";
+var podcastOne = "Sept. 30, 2016<br>The game of the season in the Pac-12 could tell us if Washington is for real while producing essential Heisman moments for Christian McCaffrey. Plus, must the winner of this game remain undefeated for a real shot at the playoff?"
 
 var podcast = new Audio();
 
@@ -92,8 +94,10 @@ function next(){
 		firstPodcast.innerHTML = podcastFive;
 	} else if (currentPodcast === 5) {
 		firstPodcast.innerHTML = podcastSix;
-	} else {
+	} else if (currentPodcast === 6) {
 		firstPodcast.innerHTML = podcastSeven;
+	} else {
+		firstPodcast.innerHTML = podcastEight;
 		nextPodcastTitle.innerHTML = "Next Podcast: " + podcasts[0];
 	}
 	
@@ -122,8 +126,10 @@ function previous () {
 		firstPodcast.innerHTML = podcastFive;
 	} else if (currentPodcast === 5) {
 		firstPodcast.innerHTML = podcastSix;
-	} else {
+	} else if (currentPodcast === 6) {
 		firstPodcast.innerHTML = podcastSeven;
+	} else {
+		firstPodcast.innerHTML = podcastEight;
 		nextPodcastTitle.innerHTML = "Next Podcast: " + podcasts[0];
 	}
 }
