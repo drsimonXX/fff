@@ -1,11 +1,11 @@
-var podcasts = ["cfb-week-5.mp3",
+var podcasts = ["michigan-week-5.mp3",
+				"cfb-week-5.mp3",
 				"stanford-washington.mp3",
 				"nfl-ratings-are-down.mp3",
 				"cfb-week-4.mp3",
 				"michigan-week-4.mp3",
 				"colin-kaepernick.mp3",
-				"coaches-hot-seat.mp3",
-				"week-3-cfb.mp3"];
+				"coaches-hot-seat.mp3"];
 
 var podcastTitle = document.getElementById('podcastTitle');
 var podcastSlider = document.getElementById('podcastSlider');
@@ -14,14 +14,14 @@ var duration = document.getElementById('duration');
 var volumeSlider = document.getElementById('volumeSlider');
 var nextPodcastTitle = document.getElementById('nextPodcastTitle');
 
-var podcastOne = "Oct. 3, 2016<br>I'm talking about ALL of week 5's big games and big finishes in CFB. Plus, who should be the Heisman favorite now, and do CFB fans and experts overreact to great offensive performances?";
-var podcastTwo = "Sept. 30, 2016<br>The game of the season in the Pac-12 could tell us if Washington is for real while producing essential Heisman moments for Christian McCaffrey. Plus, must the winner of this game remain undefeated for a real shot at the playoff?"
-var podcastThree = "Sept. 27, 2016<br>NFL ratings are down while college football ratings are up, but why? I say it's not player protests, Hillary Clinton or Donald Trump. Hear why I place the blame on Tom Brady, Peyton Manning and the media!";
-var podcastFour = "Sept. 27, 2016<br>It's starting early this season--Les Miles is out at LSU, and Brian Kelly's seat is warming up at Notre Dame. Plus, I'm calling out ESPN and College GameDay, Southern bias and B1G-time disrespect.";
-var podcastFive = "Sept. 26, 2016<br>Week 4 saw Michigan take care of business against Penn State while Wisconsin shocked Michigan State. Can Wisconsin pull off another upset in the Big House this Saturday?";
-var podcastSix = "Sept. 19, 2016<br>Clemson head coach Dabo Swinney recently added his name to the long list of people who have criticized athletes who are protesting the national anthem. Find out why he--and other coaches and players--would be better off keeping their mouths shut."; 
-var podcastSeven = "Sept. 19, 2016<br>Out of all the college football coaches who entered the season on the hot seat, which one will definitely be out at the end of the season?";
-var podcastEight = "Sept. 19, 2016<br>Two huge upsets happened in week 3 in college football with Florida State getting smoked by Louisville and Iowa getting shocked at home by FCS powerhouse North Dakota State. Which upset was the biggest?";
+var podcastOne = "Oct. 3, 2016<br>Michigan passed its biggest test of the season so far, thanks to a championship-caliber defense. But Michigan can't win the Big Ten without improving other parts of its game, starting with the kickers. That's what's great about Michigan's \"weak\" schedule.";
+var podcastTwo = "Oct. 3, 2016<br>I'm talking about ALL of week 5's big games and big finishes in CFB. Plus, who should be the Heisman favorite now, and do CFB fans and experts overreact to great offensive performances?";
+var podcastThree = "Sept. 30, 2016<br>The game of the season in the Pac-12 could tell us if Washington is for real while producing essential Heisman moments for Christian McCaffrey. Plus, must the winner of this game remain undefeated for a real shot at the playoff?"
+var podcastFour = "Sept. 27, 2016<br>NFL ratings are down while college football ratings are up, but why? I say it's not player protests, Hillary Clinton or Donald Trump. Hear why I place the blame on Tom Brady, Peyton Manning and the media!";
+var podcastFive = "Sept. 27, 2016<br>It's starting early this season--Les Miles is out at LSU, and Brian Kelly's seat is warming up at Notre Dame. Plus, I'm calling out ESPN and College GameDay, Southern bias and B1G-time disrespect.";
+var podcastSix = "Sept. 26, 2016<br>Week 4 saw Michigan take care of business against Penn State while Wisconsin shocked Michigan State. Can Wisconsin pull off another upset in the Big House this Saturday?";
+var podcastSeven = "Sept. 19, 2016<br>Clemson head coach Dabo Swinney recently added his name to the long list of people who have criticized athletes who are protesting the national anthem. Find out why he--and other coaches and players--would be better off keeping their mouths shut."; 
+var podcastEight = "Sept. 19, 2016<br>Out of all the college football coaches who entered the season on the hot seat, which one will definitely be out at the end of the season?";
 
 var podcast = new Audio();
 
