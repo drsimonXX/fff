@@ -1,11 +1,11 @@
-var podcasts = ["cfb-nfl-headlines.mp3",
+var podcasts = ["michigan-week-6.mp3",
+				"cfb-nfl-headlines.mp3",
 				"michigan-week-5.mp3",
 				"cfb-week-5.mp3",
 				"stanford-washington.mp3",
 				"nfl-ratings-are-down.mp3",
 				"cfb-week-4.mp3",
-				"michigan-week-4.mp3",
-				"colin-kaepernick.mp3"];
+				"michigan-week-4.mp3"];
 
 var podcastTitle = document.getElementById('podcastTitle');
 var podcastSlider = document.getElementById('podcastSlider');
@@ -14,14 +14,14 @@ var duration = document.getElementById('duration');
 var volumeSlider = document.getElementById('volumeSlider');
 var nextPodcastTitle = document.getElementById('nextPodcastTitle');
 
-var podcastOne = "Oct. 7, 2016<br>Miami and Texas A&M are among the CFB teams being tested this weekend while Charlie Strong's job at Texas is on the line against Oklahoma. Plus, are off-the-field issues with players and coaches overshadowing NFL games this season?";
-var podcastTwo = "Oct. 3, 2016<br>Michigan passed its biggest test of the season so far, thanks to a championship-caliber defense. But Michigan can't win the Big Ten without improving other parts of its game, starting with the kickers. That's what's great about Michigan's \"weak\" schedule.";
-var podcastThree = "Oct. 3, 2016<br>I'm talking about ALL of week 5's big games and big finishes in CFB. Plus, who should be the Heisman favorite now, and do CFB fans and experts overreact to great offensive performances?";
-var podcastFour = "Sept. 30, 2016<br>The game of the season in the Pac-12 could tell us if Washington is for real while producing essential Heisman moments for Christian McCaffrey. Plus, must the winner of this game remain undefeated for a real shot at the playoff?"
-var podcastFive = "Sept. 27, 2016<br>NFL ratings are down while college football ratings are up, but why? I say it's not player protests, Hillary Clinton or Donald Trump. Hear why I place the blame on Tom Brady, Peyton Manning and the media!";
-var podcastSix = "Sept. 27, 2016<br>It's starting early this season--Les Miles is out at LSU, and Brian Kelly's seat is warming up at Notre Dame. Plus, I'm calling out ESPN and College GameDay, Southern bias and B1G-time disrespect.";
-var podcastSeven = "Sept. 26, 2016<br>Week 4 saw Michigan take care of business against Penn State while Wisconsin shocked Michigan State. Can Wisconsin pull off another upset in the Big House this Saturday?";
-var podcastEight = "Sept. 19, 2016<br>Clemson head coach Dabo Swinney recently added his name to the long list of people who have criticized athletes who are protesting the national anthem. Find out why he--and other coaches and players--would be better off keeping their mouths shut."; 
+var podcastOne = "Oct. 10, 2016<br>Michigan sent a message to Ohio State and the media by putting 78 points on Rutgers in week 6, but were they impressed? Is Ohio State a must-win game in order for Michigan to fully gain national respect?";
+var podcastTwo = "Oct. 7, 2016<br>Miami and Texas A&M are among the CFB teams being tested this weekend while Charlie Strong's job at Texas is on the line against Oklahoma. Plus, are off-the-field issues with players and coaches overshadowing NFL games this season?";
+var podcastThree = "Oct. 3, 2016<br>Michigan passed its biggest test of the season so far, thanks to a championship-caliber defense. But Michigan can't win the Big Ten without improving other parts of its game, starting with the kickers. That's what's great about Michigan's \"weak\" schedule.";
+var podcastFour = "Oct. 3, 2016<br>I'm talking about ALL of week 5's big games and big finishes in CFB. Plus, who should be the Heisman favorite now, and do CFB fans and experts overreact to great offensive performances?";
+var podcastFive = "Sept. 30, 2016<br>The game of the season in the Pac-12 could tell us if Washington is for real while producing essential Heisman moments for Christian McCaffrey. Plus, must the winner of this game remain undefeated for a real shot at the playoff?"
+var podcastSix = "Sept. 27, 2016<br>NFL ratings are down while college football ratings are up, but why? I say it's not player protests, Hillary Clinton or Donald Trump. Hear why I place the blame on Tom Brady, Peyton Manning and the media!";
+var podcastSeven = "Sept. 27, 2016<br>It's starting early this season--Les Miles is out at LSU, and Brian Kelly's seat is warming up at Notre Dame. Plus, I'm calling out ESPN and College GameDay, Southern bias and B1G-time disrespect.";
+var podcastEight = "Sept. 26, 2016<br>Week 4 saw Michigan take care of business against Penn State while Wisconsin shocked Michigan State. Can Wisconsin pull off another upset in the Big House this Saturday?";
 
 var podcast = new Audio();
 
