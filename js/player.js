@@ -1,11 +1,11 @@
-var podcasts = ["cfb-week-8.mp3",
+var podcasts = ["michigan-week-8.mp3",
+				"cfb-week-8.mp3",
 				"cfb-week-7.mp3",
 				"cfb-week-6.mp3",	
 				"michigan-week-6.mp3",
 				"cfb-nfl-headlines.mp3",
 				"michigan-week-5.mp3",
-				"cfb-week-5.mp3",
-				"stanford-washington.mp3"];
+				"cfb-week-5.mp3"];
 
 var podcastTitle = document.getElementById('podcastTitle');
 var podcastSlider = document.getElementById('podcastSlider');
@@ -14,14 +14,14 @@ var duration = document.getElementById('duration');
 var volumeSlider = document.getElementById('volumeSlider');
 var nextPodcastTitle = document.getElementById('nextPodcastTitle');
 
-var podcastOne = "Oct. 24, 2016<br>Breaking down Ohio State's stunning loss in Happy Valley, the odds of one conference getting two teams into the playoff, how much longer does Helfrich have at Oregon and how OSU's loss actually hurts Michigan and the B1G."
-var podcastTwo = "Oct. 17, 2016<br>Alabama shows Clemson and A&M how to beat inferior opponents. Wisconsin is the best two-loss team in cfb. Plus, did Georgia make a mistake firing Mark Richt, and would it even help Notre Dame and Oregon to fire their coaches?";
-var podcastThree = "Oct. 11, 2016<br>How much did week 6 really tell us about Texas A&M and Miami? Which preseason favorites will have losing records? And why is it taking longer to turn Texas around than it took at Michigan and Alabama?";
-var podcastFour = "Oct. 10, 2016<br>Michigan sent a message to Ohio State and the media by putting 78 points on Rutgers in week 6, but were they impressed? Is Ohio State a must-win game in order for Michigan to fully gain national respect?";
-var podcastFive = "Oct. 7, 2016<br>Miami and Texas A&M are among the CFB teams being tested this weekend while Charlie Strong's job at Texas is on the line against Oklahoma. Plus, are off-the-field issues with players and coaches overshadowing NFL games this season?";
-var podcastSix = "Oct. 3, 2016<br>Michigan passed its biggest test of the season so far, thanks to a championship-caliber defense. But Michigan can't win the Big Ten without improving other parts of its game, starting with the kickers. That's what's great about Michigan's \"weak\" schedule.";
-var podcastSeven = "Oct. 3, 2016<br>I'm talking about ALL of week 5's big games and big finishes in CFB. Plus, who should be the Heisman favorite now, and do CFB fans and experts overreact to great offensive performances?";
-var podcastEight = "Sept. 30, 2016<br>The game of the season in the Pac-12 could tell us if Washington is for real while producing essential Heisman moments for Christian McCaffrey. Plus, must the winner of this game remain undefeated for a real shot at the playoff?"
+var podcastOne = "Oct. 24, 2016<br>Michigan returned from a BYE in week 8 and impressed in every phase against Illinois. Can the Wolverines keep it going and finally grab an elusive victory against the slumping Michigan State Spartans in East Lansing?";
+var podcastTwo = "Oct. 24, 2016<br>Breaking down Ohio State's stunning loss in Happy Valley, the odds of one conference getting two teams into the playoff, how much longer does Helfrich have at Oregon and how OSU's loss actually hurts Michigan and the B1G.";
+var podcastThree = "Oct. 17, 2016<br>Alabama shows Clemson and A&M how to beat inferior opponents. Wisconsin is the best two-loss team in cfb. Plus, did Georgia make a mistake firing Mark Richt, and would it even help Notre Dame and Oregon to fire their coaches?";
+var podcastFour = "Oct. 11, 2016<br>How much did week 6 really tell us about Texas A&M and Miami? Which preseason favorites will have losing records? And why is it taking longer to turn Texas around than it took at Michigan and Alabama?";
+var podcastFive = "Oct. 10, 2016<br>Michigan sent a message to Ohio State and the media by putting 78 points on Rutgers in week 6, but were they impressed? Is Ohio State a must-win game in order for Michigan to fully gain national respect?";
+var podcastSix = "Oct. 7, 2016<br>Miami and Texas A&M are among the CFB teams being tested this weekend while Charlie Strong's job at Texas is on the line against Oklahoma. Plus, are off-the-field issues with players and coaches overshadowing NFL games this season?";
+var podcastSeven = "Oct. 3, 2016<br>Michigan passed its biggest test of the season so far, thanks to a championship-caliber defense. But Michigan can't win the Big Ten without improving other parts of its game, starting with the kickers. That's what's great about Michigan's \"weak\" schedule.";
+var podcastEight = "Oct. 3, 2016<br>I'm talking about ALL of week 5's big games and big finishes in CFB. Plus, who should be the Heisman favorite now, and do CFB fans and experts overreact to great offensive performances?";
 
 var podcast = new Audio();
 
