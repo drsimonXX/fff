@@ -1,11 +1,11 @@
-var podcasts = ["michigan-week-11.mp3",
+var podcasts = ["cfb-week-11.mp3",
+				"michigan-week-11.mp3",
 				"michigan-week-10.mp3",
 				"cfb-week-10.mp3",
 				"cfb-week-9.mp3",
 				"michigan-week-9.mp3",
 				"michigan-week-8.mp3",
-				"cfb-week-8.mp3",
-				"cfb-week-7.mp3"];
+				"cfb-week-8.mp3"];
 
 var podcastTitle = document.getElementById('podcastTitle');
 var podcastSlider = document.getElementById('podcastSlider');
@@ -14,14 +14,14 @@ var duration = document.getElementById('duration');
 var volumeSlider = document.getElementById('volumeSlider');
 var nextPodcastTitle = document.getElementById('nextPodcastTitle');
 
-var podcastOne = "Nov. 14, 2016<br>Breaking down Michigan's unexpected loss to Iowa and how it affects other B1G teams, as well as the B1G's playoff chances. Also, Jim Harbaugh has yet to prove he deserves a bigger salary than Urban Meyer, Nick Saban and NFL coaches.";
-var podcastTwo = "Nov. 7, 2016<br>Michigan was at its best offensively against Maryland, thanks in large part to QB Wilton Speight's improvements. But the defense is showing signs of weakness. Also, I explain why Michigan would have a shot against Alabama.";
-var podcastThree = "Nov. 6, 2016<br>Alabama and Ohio State took care of business in week 10. Plus, is the playoff committee overvaluing schedule strength, will Ohio State jump Washington and is this the season that a two-loss team makes the playoff?";
-var podcastFour = "Nov. 1, 2016<br>What do the week 9 upsets mean for the Big 12's playoff chances, and which top 4 team is most likely to get upset? Also, we know which team will be number one in the playoff committee's first poll, but who is number two?";
-var podcastFive = "Oct. 31, 2016<br>Michigan State fought harder than Michigan did for Paul Bunyan, but Michigan still won. I break down why Michigan's effort was largely disappointing and how this game could have been a repeat of the 2015 loss.";
-var podcastSix = "Oct. 24, 2016<br>Michigan returned from a BYE in week 8 and impressed in every phase against Illinois. Can the Wolverines keep it going and finally grab an elusive victory against the slumping Michigan State Spartans in East Lansing?";
-var podcastSeven = "Oct. 24, 2016<br>Breaking down Ohio State's stunning loss in Happy Valley, the odds of one conference getting two teams into the playoff, how much longer does Helfrich have at Oregon and how OSU's loss actually hurts Michigan and the B1G.";
-var podcastEight = "Oct. 17, 2016<br>Alabama shows Clemson and A&M how to beat inferior opponents. Wisconsin is the best two-loss team in cfb. Plus, did Georgia make a mistake firing Mark Richt, and would it even help Notre Dame and Oregon to fire their coaches?";
+var podcastOne = "Nov. 15, 2016<br>How will the cfb playoff committee deal with three out of the four top teams losing in week 11? And can this group of committee members be trusted to get the final four correct?";
+var podcastTwo = "Nov. 14, 2016<br>Breaking down Michigan's unexpected loss to Iowa and how it affects other B1G teams, as well as the B1G's playoff chances. Also, Jim Harbaugh has yet to prove he deserves a bigger salary than Urban Meyer, Nick Saban and NFL coaches.";
+var podcastThree = "Nov. 7, 2016<br>Michigan was at its best offensively against Maryland, thanks in large part to QB Wilton Speight's improvements. But the defense is showing signs of weakness. Also, I explain why Michigan would have a shot against Alabama.";
+var podcastFour = "Nov. 6, 2016<br>Alabama and Ohio State took care of business in week 10. Plus, is the playoff committee overvaluing schedule strength, will Ohio State jump Washington and is this the season that a two-loss team makes the playoff?";
+var podcastFive = "Nov. 1, 2016<br>What do the week 9 upsets mean for the Big 12's playoff chances, and which top 4 team is most likely to get upset? Also, we know which team will be number one in the playoff committee's first poll, but who is number two?";
+var podcastSix = "Oct. 31, 2016<br>Michigan State fought harder than Michigan did for Paul Bunyan, but Michigan still won. I break down why Michigan's effort was largely disappointing and how this game could have been a repeat of the 2015 loss.";
+var podcastSeven = "Oct. 24, 2016<br>Michigan returned from a BYE in week 8 and impressed in every phase against Illinois. Can the Wolverines keep it going and finally grab an elusive victory against the slumping Michigan State Spartans in East Lansing?";
+var podcastEight = "Oct. 24, 2016<br>Breaking down Ohio State's stunning loss in Happy Valley, the odds of one conference getting two teams into the playoff, how much longer does Helfrich have at Oregon and how OSU's loss actually hurts Michigan and the B1G.";
 
 var podcast = new Audio();
 
