@@ -1,11 +1,11 @@
-var podcasts = ["michigan-week-13.mp3",
+var podcasts = ["cfb-week-13.mp3",
+				"michigan-week-13.mp3",
 				"michigan-week-12.mp3",
 				"cfb-week-12.mp3",
 				"cfb-week-11.mp3",
 				"michigan-week-11.mp3",
 				"michigan-week-10.mp3",
-				"cfb-week-10.mp3",
-				"cfb-week-9.mp3"];
+				"cfb-week-10.mp3"];
 
 var podcastTitle = document.getElementById('podcastTitle');
 var podcastSlider = document.getElementById('podcastSlider');
@@ -14,14 +14,15 @@ var duration = document.getElementById('duration');
 var volumeSlider = document.getElementById('volumeSlider');
 var nextPodcastTitle = document.getElementById('nextPodcastTitle');
 
-var podcastOne = "Nov. 28, 2016<br>Delving into Michigan's 2OT loss to Ohio State, what it means for Michigan's playoff chances and real talk about the future of Michigan's program under Harbaugh. The next podcast is coming after the committee releases its rankings.";
-var podcastTwo = "Nov. 21, 2016<br>Michigan struggled to beat Indiana with backup QB John O'Korn but got the win. Now all eyes turn to The Game. Now that it's finally here, how does rivalry week feel from a Wolverine's perspective? You might be surprised!";
-var podcastThree = "Nov. 20, 2016<br>Two coaches sealed their fates. Louisville and Houston gave everybody one less problem to whine about. Penn State and Michigan State will likely do the same. And the most deserving two-loss team if Washington loses again is...";
-var podcastFour = "Nov. 15, 2016<br>How will the cfb playoff committee deal with three out of the four top teams losing in week 11? And can this group of committee members be trusted to get the final four correct?";
-var podcastFive = "Nov. 14, 2016<br>Breaking down Michigan's unexpected loss to Iowa and how it affects other B1G teams, as well as the B1G's playoff chances. Also, Jim Harbaugh has yet to prove he deserves a bigger salary than Urban Meyer, Nick Saban and NFL coaches.";
-var podcastSix = "Nov. 7, 2016<br>Michigan was at its best offensively against Maryland, thanks in large part to QB Wilton Speight's improvements. But the defense is showing signs of weakness. Also, I explain why Michigan would have a shot against Alabama.";
-var podcastSeven = "Nov. 6, 2016<br>Alabama and Ohio State took care of business in week 10. Plus, is the playoff committee overvaluing schedule strength, will Ohio State jump Washington and is this the season that a two-loss team makes the playoff?";
-var podcastEight = "Nov. 1, 2016<br>What do the week 9 upsets mean for the Big 12's playoff chances, and which top 4 team is most likely to get upset? Also, we know which team will be number one in the playoff committee's first poll, but who is number two?";
+var podcastOne = "Dec. 1, 2016<br>Texas, LSU and Oregon have finally made coaching moves. Which programs will be next? Plus, this season's final top 4 is guaranteed to cause a lot of disagreement. Will it be enough to force an 8-team playoff system?";
+var podcastTwo = "Nov. 28, 2016<br>Delving into Michigan's 2OT loss to Ohio State, what it means for Michigan's playoff chances and real talk about the future of Michigan's program under Harbaugh. The next podcast is coming after the committee releases its rankings.";
+var podcastThree = "Nov. 21, 2016<br>Michigan struggled to beat Indiana with backup QB John O'Korn but got the win. Now all eyes turn to The Game. Now that it's finally here, how does rivalry week feel from a Wolverine's perspective? You might be surprised!";
+var podcastFour = "Nov. 20, 2016<br>Two coaches sealed their fates. Louisville and Houston gave everybody one less problem to whine about. Penn State and Michigan State will likely do the same. And the most deserving two-loss team if Washington loses again is...";
+var podcastFive = "Nov. 15, 2016<br>How will the cfb playoff committee deal with three out of the four top teams losing in week 11? And can this group of committee members be trusted to get the final four correct?";
+var podcastSix = "Nov. 14, 2016<br>Breaking down Michigan's unexpected loss to Iowa and how it affects other B1G teams, as well as the B1G's playoff chances. Also, Jim Harbaugh has yet to prove he deserves a bigger salary than Urban Meyer, Nick Saban and NFL coaches.";
+var podcastSeven = "Nov. 7, 2016<br>Michigan was at its best offensively against Maryland, thanks in large part to QB Wilton Speight's improvements. But the defense is showing signs of weakness. Also, I explain why Michigan would have a shot against Alabama.";
+var podcastEight = "Nov. 6, 2016<br>Alabama and Ohio State took care of business in week 10. Plus, is the playoff committee overvaluing schedule strength, will Ohio State jump Washington and is this the season that a two-loss team makes the playoff?";
+/*var podcastEight = "Nov. 1, 2016<br>What do the week 9 upsets mean for the Big 12's playoff chances, and which top 4 team is most likely to get upset? Also, we know which team will be number one in the playoff committee's first poll, but who is number two?";*/
 
 var podcast = new Audio();
 
